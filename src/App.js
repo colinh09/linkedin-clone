@@ -8,6 +8,7 @@ import { selectUser } from './features/userSlice';
 import Login from './Login';
 import { auth } from './firebase';
 import { login, logout} from './features/userSlice';
+import Widgets from "./Widgets";
 
 function App() {
   const user = useSelector(selectUser); 
@@ -41,6 +42,7 @@ function App() {
 
           <Feed />
 
+          <Widgets />
         </div>
         )}
     </div>

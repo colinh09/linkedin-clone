@@ -1,4 +1,5 @@
 .header {
+    position: sticky;
     background-color: white;
     display: flex;
     justify-content: space-evenly;
@@ -6,7 +7,6 @@
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100%;
-    position: sitcky;
     top: 0;
     z-index: 999;
 }
